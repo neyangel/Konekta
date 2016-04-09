@@ -1,0 +1,72 @@
+[
+  {
+    "MenuType": "Page",
+    "Title": "No Photo",
+    "Icon": "/Assets/DataImages/ModuleLogo-3.png",
+    "Target": "NoPhotoListPage",
+    "_id": "f6d4a3fa-4af3-4f39-8161-edd819538f9f"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Photo Left",
+    "Icon": "/Assets/DataImages/ModuleLogo-4.png",
+    "Target": "PhotoLeftListPage",
+    "_id": "de8122c5-e08a-40c9-9bc2-73f95af6635a"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Photo Left Description",
+    "Icon": "/Assets/DataImages/ModuleLogo-6.png",
+    "Target": "PhotoLeftDescriptionListPage",
+    "_id": "f4d64bbe-bacf-4781-86f4-8725c41562fa"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Big Pictures",
+    "Icon": "/Assets/DataImages/ModuleLogo-7.png",
+    "Target": "BigPicturesListPage",
+    "_id": "606cedc9-65e0-420e-b37d-606979b3e530"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Horizontal Cards",
+    "Icon": "/Assets/DataImages/ModuleLogo-8.png",
+    "Target": "HorizontalCardsListPage",
+    "_id": "dc392777-cbb3-4fcc-9e26-50f1c1a1d83b"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Vertical Cards",
+    "Icon": "/Assets/DataImages/ModuleLogo-9.png",
+    "Target": "VerticalCardsListPage",
+    "_id": "78435bd8-063f-47b4-93b6-e255084ebe63"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Big Vertical Cards",
+    "Icon": "/Assets/DataImages/ModuleLogo-10.png",
+    "Target": "BigVerticalCardsListPage",
+    "_id": "6644db2d-2d32-4f3c-8236-dff484cc4c16"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Photo",
+    "Icon": "/Assets/DataImages/ModuleLogo-11.png",
+    "Target": "PhotoListPage",
+    "_id": "4f2d3925-c605-4742-8bac-18240f12efe1"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Big Photo",
+    "Icon": "/Assets/DataImages/ModuleLogo-12.png",
+    "Target": "BigPhotoListPage",
+    "_id": "fbe5c517-dbb4-45be-bf48-cd83d9369aec"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Photo Tile",
+    "Icon": "/Assets/DataImages/ModuleLogo-13.png",
+    "Target": "PhotoTileListPage",
+    "_id": "b9139b82-0a36-42f5-ab67-f6bde822f446"
+  }
+]

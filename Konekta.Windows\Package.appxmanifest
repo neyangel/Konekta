@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest"
+         xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest"
+         xmlns:appstudio="http://schemas.microsoft.com/developer/appx/2015/appstudio" 
+         IgnorableNamespaces="appstudio">
+    
+  <Identity Name="64b128bb-e01b-4189-94ba-6583635e59d5" Publisher="CN=AppStudio" Version="1.0.1.0" />
+
+  <Properties>
+    <DisplayName>AppStudio App</DisplayName>
+    <PublisherDisplayName>AppStudio</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Konekta.App">
+      <m2:VisualElements DisplayName="Konekta" Description="Learn more about Windows App Studio.  Use this template to create an informational app about a topic you care about."
+                         ForegroundText="light" 
+                         BackgroundColor="#333333"
+                         Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png">
+
+        <m2:DefaultTile ShortName="Konekta"
+                        Wide310x150Logo="Assets\Wide310x150Logo.png"
+                        Square70x70Logo="Assets\Square70x70Logo.png">
+          <m2:TileUpdate Recurrence="halfHour" UriTemplate="http://ds.winappstudio.com/api/tile/b0730124-f888-45f1-86d6-45253b6f7f44/6db1e7d0-5216-4519-8978-d51f1452f9f2?columnName=Image" />
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#333333"/>
+        <m2:ApplicationView MinWidth="width320" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+    
+  <appstudio:Metadata>
+    <appstudio:Item Name="appId" Value="b0730124-f888-45f1-86d6-45253b6f7f44" />
+    <appstudio:Item Name="model" Version="1.11" />
+    <appstudio:Item Name="formula" Value="Win81" Version="1.12.0329.1" />
+    <appstudio:Item DataSource="Html" Version="1.0.1"/>
+    <appstudio:Item DataSource="Menu" Version="1.0.1"/>
+    <appstudio:Item DataSource="Collection" Version="1.0.1"/>
+    <appstudio:Item DataSource="Rss" Version="1.0.1"/>
+    <appstudio:Item DataSource="Flickr" Version="1.0.1"/>
+    <appstudio:Item DataSource="Bing" Version="1.0.1"/>
+  </appstudio:Metadata>
+</Package>

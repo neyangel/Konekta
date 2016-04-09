@@ -1,0 +1,23 @@
+[
+  {
+    "MenuType": "Page",
+    "Title": "Registrar Cliente",
+    "Icon": "/Assets/DataImages/ModuleLogo.png",
+    "Target": "RegistrarClienteListPage",
+    "_id": "1407463c-fd81-4e62-99a3-e9bd5ae10fb4"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Photo Layout",
+    "Icon": "/Assets/DataImages/ModuleLogo-1.png",
+    "Target": "PhotoLayoutListPage",
+    "_id": "33b1f590-66ac-4ed0-ae53-d82183703eef"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Text Layout",
+    "Icon": "/Assets/DataImages/ModuleLogo-2.png",
+    "Target": "TextLayoutListPage",
+    "_id": "4716614b-a5a8-43b7-a823-0e74b8d3dfc5"
+  }
+]

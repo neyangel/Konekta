@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" 
+         xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" 
+         xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" 
+         xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+         xmlns:appstudio="http://schemas.microsoft.com/developer/appx/2015/appstudio" 
+         IgnorableNamespaces="appstudio">
+  <Identity Name="64b128bb-e01b-4189-94ba-6583635e59d5" Publisher="CN=AppStudio" Version="1.0.1.0" />
+
+  <mp:PhoneIdentity PhoneProductId="b0730124-f888-45f1-86d6-45253b6f7f44" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
+  <Properties>
+    <DisplayName>AppStudio App</DisplayName>
+    <PublisherDisplayName>AppStudio</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Konekta.App">
+      <m3:VisualElements DisplayName="Konekta" Description="Learn more about Windows App Studio.  Use this template to create an informational app about a topic you care about."
+          Square150x150Logo="Assets\Logo.png"
+          Square44x44Logo="Assets\SmallLogo.png"
+          ForegroundText="light"
+          BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png" ShortName="Konekta">
+          <m3:TileUpdate Recurrence="halfHour" UriTemplate="http://ds.winappstudio.com/api/tile/b0730124-f888-45f1-86d6-45253b6f7f44/6db1e7d0-5216-4519-8978-d51f1452f9f2?columnName=Image" />
+          <m3:ShowNameOnTiles>
+            <m3:ShowOn Tile="square150x150Logo" />
+            <m3:ShowOn Tile="wide310x150Logo" />
+          </m3:ShowNameOnTiles>
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#333333"/>
+        <m3:ApplicationView MinWidth="width320"/>
+        <!--Used in XAML Designer. DO NOT REMOVE-->
+        <m3:InitialRotationPreference>
+          <m3:Rotation Preference="portrait" />
+        </m3:InitialRotationPreference>
+      </m3:VisualElements>
+
+    </Application>
+  </Applications>
+
+  <!-- Microphone capability required for TextToSpeech -->
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+    <DeviceCapability Name="microphone" />
+  </Capabilities>
+    
+  <appstudio:Metadata>
+    <appstudio:Item Name="appId" Value="b0730124-f888-45f1-86d6-45253b6f7f44" />
+    <appstudio:Item Name="model" Version="1.11" />
+    <appstudio:Item Name="formula" Value="Win81" Version="1.12.0329.1" />
+    <appstudio:Item DataSource="Html" Version="1.0.1"/>
+    <appstudio:Item DataSource="Menu" Version="1.0.1"/>
+    <appstudio:Item DataSource="Collection" Version="1.0.1"/>
+    <appstudio:Item DataSource="Rss" Version="1.0.1"/>
+    <appstudio:Item DataSource="Flickr" Version="1.0.1"/>
+    <appstudio:Item DataSource="Bing" Version="1.0.1"/>
+  </appstudio:Metadata>
+</Package>

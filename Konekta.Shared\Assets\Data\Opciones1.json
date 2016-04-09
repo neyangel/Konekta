@@ -1,0 +1,30 @@
+[
+  {
+    "MenuType": "DeepLink",
+    "Title": "Url",
+    "Icon": "/Assets/DataImages/Item-c2823056-37a4-490e-a504-3530836ca8e2.png",
+    "Target": "http://www.microsoft.com",
+    "_id": "a4b37236-0f77-4eb6-911b-e8475c5987c3"
+  },
+  {
+    "MenuType": "DeepLink",
+    "Title": "Email",
+    "Icon": "/Assets/DataImages/Item-f66f4887-2e5a-4e15-8716-c24e07533f09.png",
+    "Target": "mailto:jdoe@site.com",
+    "_id": "9e5ad2c0-be98-4b86-b364-10ee116b8ea3"
+  },
+  {
+    "MenuType": "DeepLink",
+    "Title": "Phone",
+    "Icon": "/Assets/DataImages/Item-7b1e31ae-92e7-4549-b087-e01b148d4e0f.png",
+    "Target": "tel:123-456-7890",
+    "_id": "5705bab1-4393-49ad-a24d-98c25942c110"
+  },
+  {
+    "MenuType": "DeepLink",
+    "Title": "Map",
+    "Icon": "/Assets/DataImages/Item-6a7ad3ef-9dcd-4294-a7b3-a802afd7f0c4.png",
+    "Target": "bingmaps:?collection=point.47.642356753349304_-122.12451696395874_Microsoft&lvl=18",
+    "_id": "6f096c63-e584-40c2-9acf-1620ab7ed954"
+  }
+]

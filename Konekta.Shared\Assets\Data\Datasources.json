@@ -1,0 +1,37 @@
+[
+  {
+    "MenuType": "Page",
+    "Title": "Html",
+    "Icon": "/Assets/DataImages/Item-0a141351-cc4f-4231-9b10-099642e342a4.png",
+    "Target": "HtmlListPage",
+    "_id": "a4a763c1-1fc1-4ade-9833-d5ebfca876f4"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "RSS",
+    "Icon": "/Assets/DataImages/Item-63a8f97f-864e-4433-a452-33c2db30756e.png",
+    "Target": "RSSListPage",
+    "_id": "0e7f6135-1db8-43a8-97b9-1cafd989a6e4"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Flickr",
+    "Icon": "/Assets/DataImages/Item-f479b45b-5a73-4ff0-9902-5cbe8f43cae2.png",
+    "Target": "FlickrListPage",
+    "_id": "b3979cb9-b0b5-4378-86fc-c3e7c6a0293d"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Bing",
+    "Icon": "/Assets/DataImages/Item-31731a8b-97c1-48c0-8aa9-801ec95e7dd0.png",
+    "Target": "BingListPage",
+    "_id": "1b1e694d-8270-4d14-97d4-c849daa29f7d"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Collection",
+    "Icon": "/Assets/DataImages/Item-ee98fe03-6664-4aec-8259-a1c0a06db7fd.png",
+    "Target": "CollectionListPage",
+    "_id": "d35cad70-071b-4dae-aa1d-f20576d40f2d"
+  }
+]
